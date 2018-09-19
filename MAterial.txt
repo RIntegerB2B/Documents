@@ -1,0 +1,8 @@
+npm i
+ng add @angular/pwa@0.6.8 --project rinteger
+https://loiane.com/2017/08/how-to-add-bootstrap-to-an-angular-cli-project/#4-bootstrap-javascript-components-with-ngx-bootstrap-option-1
+npm i bootstrap
+npm install bootstrap ngx-bootstrap --save
+https://medium.com/letsboot/quick-start-with-angular-material-and-flex-layout-1b065aa1476c
+
+npm install --save @angular/material @angular/cdk @angular/animations

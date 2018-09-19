@@ -1,0 +1,34 @@
+1. Install Mongo DB - > https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+2. Install Nodejs -> 
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+3.  Install Nginx  - > https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04
+4. Git -> sudo apt-get update
+ sudo apt-get install git-core
+ 5. Install Angular CLI -> sudo npm i -g @angular/cli
+ 6. sudo git remote add origin  https://github.com/RIntegerB2B/BuyerApp.git
+ 7. sudo git remote add origin  https://github.com/RIntegerB2B/BuyerService.git
+ 
+ https://www.youtube.com/watch?v=Y9XZQO1n_7c - Git
+ https://www.youtube.com/watch?v=HVsySz-h9r4 - Git
+ https://www.youtube.com/watch?v=pWbMrx5rVBE - MongoDb
+https://www.youtube.com/watch?v=WDrU305J1yw - Mongoose & Nodejs
+
+cd\
+cd C:\my-folder\b2c\seller-app
+git add .
+git status
+git commit -m "Quick Changes"
+git push origin master
+
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
+
+Credential for Git
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+
+HTTPS NGINX UBUNTU- > https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-16-04
+
+Key Gen for JWT
+https://gist.github.com/Holger-Will/3edeea6855f1d69a5368871bce5ea926

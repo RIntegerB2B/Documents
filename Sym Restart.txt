@@ -1,0 +1,11 @@
+#!/bin/bash
+sudo service mongod start
+sudo service nginx start
+cd /home/ubuntu/my-folder/app/service-seller
+sudo forever start ./forever.config.json
+cd /home/ubuntu/my-folder/app/service-buyer
+sudo forever start ./forever.config.json
+cd /home/ubuntu/my-folder/deploy-app/deploy-service
+sudo forever start ./forever.config.json
+sudo forever list
+echo "Success"
